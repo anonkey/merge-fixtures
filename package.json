@@ -1,0 +1,22 @@
+{
+  "name": "fixtures-sorter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mergeFixtures.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^4.0.0",
+    "kebab-case": "^1.0.1"
+  },
+  "bin": {
+    "merge-fixtures": "./index.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
